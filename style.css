@@ -50,7 +50,7 @@ input[type="radio"]:checked
     border-radius: 10px;
 }
 
-input[type="checkbox"]:checked
+input[name="DeliveryMode"]:checked
 {
     height:13px;
     width:13px;
@@ -61,7 +61,6 @@ input[type="checkbox"]:checked
     border-radius: 3px;
 
 }
-
 *
 {
     font-family: "Edu VIC WA NT Beginner", cursive;
