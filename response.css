@@ -1,0 +1,13 @@
+*
+{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-weight: 600;
+    font-size: xx-large;
+    text-align: center;
+    padding-top:100px;
+}
+body
+{
+    background: rgb(124,85,199);
+background: linear-gradient(90deg, rgba(124,85,199,1) 0%, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100%);
+}

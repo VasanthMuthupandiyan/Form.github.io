@@ -1,0 +1,83 @@
+p
+{
+    display: none;
+}
+td input:only-of-type:focus:valid
+{
+    border:5px solid green;
+}
+td input:only-of-type:focus
+{  
+   border:5px solid red;
+}
+td input:hover+p,:focus+p
+{
+    font-size:70%;
+    display: inline;
+    background-color: bisque;
+}
+input
+{
+    margin-top:10px;
+    text-indent:5%;
+    font-weight: 700;
+   
+}
+fieldset
+{      
+   
+    border:3px groove red;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(114,85,199,0.974194780451243) 41%, rgba(252,70,107,1) 100%);
+}
+legend
+{ 
+    border: 3px solid red;
+    background-color: white;
+    font-weight:600;
+}
+input[type="radio"]:checked
+{
+    height:15px;
+    width:15px;
+    appearance:none;
+    background-color:deeppink;
+    border:3px solid rgb(0, 37, 222);
+    outline:3px solid deeppink;
+    border-radius: 10px;
+}
+
+input[type="checkbox"]:checked
+{
+    height:13px;
+    width:13px;
+    appearance:none;
+    background-color:deeppink;
+    border:3px solid rgb(0, 37, 222);
+    outline: 3px  solid deeppink;
+    border-radius: 3px;
+
+}
+
+*
+{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-weight: 500;
+}
+body
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background: rgb(124,85,199);
+    background: linear-gradient(90deg, rgba(124,85,199,1) 0%, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100%);
+
+}
+
